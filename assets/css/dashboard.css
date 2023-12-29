@@ -1,0 +1,287 @@
+body {
+     font-family: "Lato", sans-serif;
+     background-image: url('/assets/images/hero-banner.jpg')
+     
+     
+   }
+body{
+     font-weight: 600;
+     background-repeat: no-repeat;
+     overflow: hidden;
+     
+}
+
+   .sidenav {
+     height: 100%;
+     width: 250px;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     background-color: whitesmoke;
+     overflow-x: hidden;
+     padding-top: 20px;
+     
+     
+   }
+   
+   .sidenav a {
+     padding: 6px 6px 6px 20px;
+     text-decoration: none;
+     font-size: 17px;
+     background-color: darkorange;
+     color: white;
+     display: block;
+     height: 3rem;
+     width: 8rem;
+
+   }
+   
+   .sidenav a:hover {
+     
+     border: 1px solid white ;
+     border-radius: 10px;
+   }
+
+   .sidenav button{
+        width: 15rem;
+        border: none;
+        background-color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        margin-left: 5rem;
+   }
+
+   .sidenav svg{
+        width: 20px;
+        float: left;
+        
+   }
+   .container-profile a{
+     background-color: whitesmoke;
+     color: darkorange;
+    
+   }
+   .container-profile a :hover{
+     border: 1px solid whitesmoke;
+   }
+   .container-profile{
+     display: flex;
+     margin-top: 10rem;
+     
+   }
+   
+   
+
+   .prof a{
+     background-color: whitesmoke;
+     width: 4rem;
+     color: darkorange;
+     font-size: small;
+   }
+   .prof button{
+     background-color: whitesmoke;
+     margin-left: 0;
+   }
+   .prof-img{
+     width: 2rem;
+     height: 2rem;
+     background-color: darkorange;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: white;
+     margin: 5px;
+   }
+
+
+   .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+   }
+   
+   .main {
+     margin-left: 250px; /* Same as the width of the sidenav */
+   }
+
+   .container-dash1{
+        backdrop-filter: blur(5px); 
+        background-color: rgba(255, 255, 255, 0.5); 
+        width: 100vw;
+        height: 12rem;
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 1.5rem;
+        display: flex;
+        align-items: center;
+        
+   }
+   .container-dash1 p{
+        align-self: self-end;
+   }
+   
+   .container-dash2{
+        backdrop-filter: blur(5px); 
+        background-color: rgba(255, 255, 255, 0.5); 
+        width: 100vw;
+        height: 18rem;
+        margin: 1.5rem;
+        border: 1px solid white;
+        border-radius: 5px;
+        display: flex;
+        
+   }
+   h3{
+        color: darkorange;
+   }
+   .box1{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        padding: 2rem;
+   }
+   .box2{
+        display: flex;
+        flex-direction: column;
+        width: 50vw;
+        padding: 2rem;
+   }
+
+   .box3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        backdrop-filter: blur(5px); 
+        background-color: rgba(255, 255, 255, 0.5); 
+        border: 1px solid white;
+        border-radius: 5px;
+        margin: 1.5rem;
+   }
+
+   .main a{
+        text-decoration: none;
+        color: white;
+        
+   }
+
+   .main button{
+        background-color: darkorange;
+        width: 7rem;
+        height: 3rem;
+        border-radius: 5px;
+        border: 2px solid white;
+       
+        }
+   
+
+   .container-eq{
+        backdrop-filter: blur(5px); 
+        background-color: rgba(255, 255, 255, 0.5); 
+        width: 100vw;
+        height: 25rem;
+        margin: 1.5rem;
+        border: 1px solid white;
+        border-radius: 5px;
+        display: flex;
+
+   }
+
+   .container-eq a {
+     text-decoration: none;
+     color: black;
+     
+   }
+   .card-eq{
+     width: 30%;
+     border: 1px white solid;
+     border-radius: 2rem;
+     padding: 1rem;
+     backdrop-filter: blur(10px);  
+   }
+   
+
+   .container-eq-pm{
+     backdrop-filter: blur(5px); 
+     background-color: rgba(255, 255, 255, 0.5); 
+     width: 100vw;
+     height: 15rem;
+     margin: 1.5rem;
+     border: 1px solid white;
+     border-radius: 5px;
+     display: flex;
+   }
+
+   .container-eq-pm button{
+     width: 6rem;
+     height: 2rem;
+     background-color: darkorange;
+     border: 1px white solid;
+     
+   }
+   
+   .container-eq-pm a{
+     text-decoration: none;
+     color: white;
+   }
+   
+   .container-eq-pm nav{
+     display: flex;
+   }
+
+   .box-ship{
+     backdrop-filter: blur(5px); 
+     background-color: rgba(255, 255, 255, 0.5); 
+     width: 100vw;
+     height: 8rem;
+     margin: 1.5rem;
+     border: 1px solid white;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     
+   }
+   
+   .box-ship2{
+     backdrop-filter: blur(5px); 
+     background-color: rgba(255, 255, 255, 0.5); 
+     width: 100vw;
+     height: 15rem;
+     margin: 1.5rem;
+     border: 1px solid white;
+     border-radius: 5px;
+     display: flex;
+     align-items: center;
+     flex-direction: column;
+   }
+   
+   .container-acc{
+     backdrop-filter: blur(5px); 
+     background-color: rgba(255, 255, 255, 0.5); 
+     width: 100vw;
+     height: 15rem;
+     margin: 1.5rem;
+     border: 1px solid white;
+     border-radius: 5px;
+   }
+   .container-acc form{
+     display: flex;
+   }
+   .container-acc input{
+     width: 10rem;
+     height: 2rem;
+     border-radius: 5px;
+   }
+   
+
+   
+   
+   
+   
+   
+   @media screen and (max-height: 450px) {
+     .sidenav {padding-top: 15px;}
+     .sidenav a {font-size: 18px;}
+   }
